@@ -27,15 +27,15 @@ class Person{
     }
 
     public String getName(){
-        return "Name: " + this.myName;
+        return myName;
     }
 
-    public String getAge(){
-        return "Age: " + this.myAge;
+    public int getAge(){
+        return myAge;
     }
 
     public String getGender(){
-        return "Gender: " + this.myGender;
+        return myGender;
     }
 
     public String toString() {
